@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1pxsolid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+.container:hover {
+  box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
+  transition: 0.3s;
+}
+.content {
+  width: 90%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.illus-img {
+  display: flex;
+  justify-content: center;
+}
+
+.illus-img img {
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+
+.first-part p {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.first-part .yellow-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  margin-bottom: 10px;
+}
+
+.second-part h3 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.second-part h3:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.second-part p {
+  color: hsl(0, 0%, 50%);
+  font-size: 15px;
+}
+
+.third-part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.third-part img {
+  width: 10%;
+}
+
+.third-part p {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 290px;
+    box-shadow: hsl(0, 0%, 7%) 6px 6px;
+  }
+  .first-part p {
+    font-size: 10px;
+  }
+  .second-part h3 {
+    font-size: 18px;
+  }
+  .second-part p {
+    font-size: 13px;
+  }
+  .third-part p {
+    font-size: 10px;
+  }
+}
