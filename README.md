@@ -4,10 +4,19 @@ This is my solution to the [Blog preview card challenge](https://www.frontendmen
 
 ## 🚀 Live Demo
 
-- [Live Site](https://your-live-site-url.com)
-- [Solution on Frontend Mentor](https://your-solution-url.com)
+- [Live Site](https://amanihiba.github.io/Blog-Preview-Card-challenge/)
 
 ## 🛠️ Built With
 
 - HTML5
 - CSS (Flexbox)
+
+## 🌱 What I Learned
+
+- How to structure a clean component layout
+- Using Flexbox for alignment and spacing
+- Applying hover and focus states for interactivity
+
+## ✍️ Author
+
+- Frontend Mentor: [@yourusername](https://www.frontendmentor.io/profile/yourusername)
